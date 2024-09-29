@@ -1,0 +1,99 @@
+//
+//  PrefixHeader.pch
+//  WisePeople
+//
+//  Created by mac mini on 2022/5/6.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+//API
+#import "ApiMacro.h"
+#import "ConstMacro.h"
+#import "PublicMacro.h"
+#import "ColorMacro.h"
+
+//导入第三方库
+#import <YYKit/YYKit.h>
+#import <AFNetworking.h>
+#import <Masonry.h>
+#import <MJExtension.h>
+#import <MJRefresh.h>
+#import <MBProgressHUD.h>
+#import <SDWebImage.h>
+#import <UIButton+WebCache.h>
+#import <SAMKeychain/SAMKeychain.h>
+#import <IQKeyboardManager/IQKeyboardManager.h>
+
+
+//HHKit
+#import "HHButton.h"
+#import "HHTextField.h"
+#import "HHTextView.h"
+#import "HHCustomButton.h"
+#import "HHFormTextField.h"
+#import "HHFormSelectView.h"
+#import "HHAutoHeightTextView.h"
+#import "HHListPopView.h"
+#import "HHAlterListPopView.h"
+
+//Tools
+#import "LoginManager.h"
+#import "HH_Utilities.h"
+#import "ControlTools.h"
+#import "UserDefaultsTool.h"
+#import "HHNavigationBar.h"
+#import "HHSystemAlter.h"
+#import "DeviceTools.h"
+
+//Categary
+#import "HHNavigationController+FDFullscreenPopGesture.h"
+#import "UIButton+EnlargeEdge.h"
+#import "UIView+HHExtension.h"
+#import "UIView+Border.h"
+#import "UIView+drag.h"
+#import "NSString+HHExtension.h"
+#import "MBProgressHUD+Extension.h"
+#import "NSString+AttributeString.h"
+#import "NSArray+Sudoku.h"
+#import "UIImage+HHExtension.h"
+#import "UIColor+HHExtension.h"
+#import "UIAlertController+Extension.h"
+#import "NSDate+HHExtension.h"
+#import "UIWindow+HHSafeArea.h"
+#import "UIScrollView+HeaderScaleImage.h"
+#import "UINavigationBar+HHExtension.h"
+#import "UIControl+HHEventInterval.h"
+#import "UIView+HHAnimation.h"
+#import "UILabel+YBAttributeTextTapAction.h"
+#import "UITextView+Placeholder.h"
+#import "UIImageView+HHExtension.h"
+
+#import "HHRefreshNormalHeader.h"
+#import "HHRefreshGifHeader.h"
+#import "HHRefreshAutoBackFooter.h"
+#import "HHRefreshAutoNormalFooter.h"
+#import "HHCommentsAutoFooter.h"
+
+//Model
+#import "BaseModel.h"
+#import "UserModel.h"
+
+//Request
+#import "HttpTools.h"
+#import "NoProductManager.h"
+#import "PublicHandler.h"
+#import "LoginHandler.h"
+#import "HomeHandler.h"
+#import "MineHandler.h"
+
+
+#import "BaseTabBarController.h"
+#import "HomeViewController.h"
+#import "LoginViewController.h"
+
+#endif /* PrefixHeader_pch */
